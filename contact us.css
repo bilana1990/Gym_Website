@@ -1,0 +1,38 @@
+.home::before{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.contact_us::before{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.CONTACT_US h2{
+    color: white;
+    position: absolute;top: 80px;
+}
+.CONTACT_US img{
+    margin-top: 100px;
+}
+
+
+.CONTACT_US {
+    background-color: rgb(70, 1, 104);
+    height: 895px;
+}
+
+
+

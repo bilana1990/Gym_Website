@@ -1,0 +1,82 @@
+@media only screen and (max-width: 360px){
+    .CONTACT_US h2 {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 58px;
+        top: 293px;
+    }
+    .CONTACT_US img {
+        margin-top: 393px;
+        width: 359px;
+    }
+    .CONTACT_US {
+        background-color: rgb(70, 1, 104);
+        height: 1461px;
+    }
+    
+}
+
+
+
+@media (min-width:360px) and (max-width:480px){
+    .CONTACT_US img {
+        margin-top: 439px;
+    }
+    .CONTACT_US h2 {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 131px;
+        top: 372px;
+    }
+    .CONTACT_US {
+        background-color: rgb(70, 1, 104);
+        height: 1541px;
+    }
+}
+
+
+@media (min-width:480px) and (max-width:768px){
+    .CONTACT_US img {
+        margin-top: 336px;
+    }
+    .CONTACT_US form {
+        display: flex;
+        flex-direction: column;
+        width: 200px;
+        margin-left: 490px;
+        margin-top: -405px;
+        gap: 20px;
+    }
+    .CONTACT_US h2 {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 471px;
+        top: 234px;
+    }
+    .CONTACT_US {
+        background-color: rgb(70, 1, 104);
+        height: 846px;
+    }
+    footer .contuct_icons {
+        display: flex;
+        justify-content: center;
+        gap: 102px;
+        align-items: center;
+        position: relative;
+        top: 50px;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:1024px){
+    .CONTACT_US h2 {
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        left: 599px;
+        top: 100px;
+    }
+}

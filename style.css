@@ -1,0 +1,441 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Young Serif', serif;
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;top: 20px;
+    z-index: 1;
+    
+}
+/* burger menu */
+.burger_menu img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+
+/* burger menu */
+.siteheader h1 a{
+    color: white;
+    margin-left: 100px;
+}
+.navmenu{
+    display: flex;
+    gap: 60px;
+    margin-left: 600px;
+}
+
+.navmenu a{
+    position: relative;
+    color: white;
+} 
+.navmenu a::after{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navmenu a:hover::after{
+    width: 100%;
+}
+.home::before{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+
+/* slider section */
+
+.container{
+    width: 100%;
+    margin: -20px auto;
+}
+.carousel{
+    
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+    background-image: url(img/hero-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    
+    
+} 
+.slider{
+    height: 100%;
+    display: flex;
+    width: 400%;
+    border: 1px solid red;
+    transition: all 0.6s;
+}
+.slider section{
+    flex-basis: 100%;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+.controls ul{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.controls ul li{
+    width: 20px;
+    height: 20px;
+    border: 4px solid white;
+    border-radius: 50px;
+    margin: 10px;
+    background: none;
+    cursor: pointer;
+}
+
+.controls ul li.selected{
+    background: transparent;
+    border: 6px solid white;
+}
+
+
+.slider section h4{
+    color: white;
+    font-size: 30px;
+}
+.slider section h3{
+    color: white;
+    font-size: 40px;
+    letter-spacing: 5px;
+}
+.slider section h2{
+    color: white;
+    font-size: 50px;
+    letter-spacing: 10px;
+}
+.slider section p{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 5px;
+    margin-top: 30px;
+}
+.slider section button{
+    width: 200px;
+    height: 50px;
+    margin-top: 100px;
+    background: none;
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+}
+.slider section button:hover{
+    color: black;
+    background-color: white;
+}
+/* slider section ends */
+
+
+
+
+/* WHY CHOOSE US section starts */
+.WHY_CHOOSE_US{
+    margin-top: -100px;
+    background-image: url(img/us-bg.jpg);
+    height: 600px;
+    background-position: center;
+    background-attachment: fixed;
+    
+}
+.WHY_CHOOSE_US h2{
+    margin-top: 100px;
+    position: absolute;left: 600px;top: 700px;
+    color: white;
+    font-size: 30px;   
+}
+.WHY_CHOOSE_US h2::after{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 20%;
+    left: 0;
+    bottom: -10px;
+    margin-left: 130px;
+}
+.conteiners{
+    display: flex;
+    
+    gap: 50px;
+    position: absolute;top: 950px;left: 150px;
+}
+.QUALITY_EQUIPMENT{
+    color: white;
+    text-align: center;
+}
+.NUTRITION{
+    color: white;
+    text-align: center;
+}
+.HEALTHY_DIET_PLAN{
+    color: white;
+    text-align: center;
+}
+.SPORT_TRAINING{
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+/* WHY CHOOSE US section ends */
+
+
+
+/* HEALTHY MIND, HEALTHY BODY section start */
+
+
+.HEALTHY_MIND_HEALTHY_BODY{
+    background-image: url(img/healthy-bg.jpg);
+    height: 500px;
+    background-attachment: fixed;
+}
+.HEALTHY_MIND_HEALTHY_BODY h2{
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    position: relative;top: 100px;
+}
+.HEALTHY_MIND_HEALTHY_BODY p{
+    text-align: center;
+    color: white;
+    position: relative;top: 150px;
+}
+.HEALTHY_MIND_HEALTHY_BODY button{
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 42%;
+    background: none;
+    cursor: pointer;
+    border: 2px solid white;
+    color: white;
+}
+.HEALTHY_MIND_HEALTHY_BODY button:hover{
+    color: black;
+    background-color: white;
+}
+
+/* HEALTHY MIND, HEALTHY BODY section finish */
+
+
+
+/* OUR GYM TRAINERS section start */
+.OUR_GYM_TRAINERS{
+    background-image: url(img/trainer-bg.jpg);
+    height: 800px;
+    background-attachment: fixed;
+}
+.OUR_GYM_TRAINERS h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    position: relative;top: 100px;
+}
+.OUR_GYM_TRAINERS h2::after{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 80px;
+    left: 0;
+    bottom: -10px;
+    margin-left: 720px;
+}
+.our_treners{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 200px;
+}
+
+
+.Smirth_Jon h3{
+    color: white;
+    text-align: center;
+}
+.Smirth_Jon img{
+    margin-top: 30px;
+    border-radius: 40px;
+    
+}
+.social_icons{
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+    margin-top: -30px;
+    margin-left: 80px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+
+
+.Jean_Doe h3{
+    color: white;
+    text-align: center;
+}
+.Jean_Doe img{
+    margin-top: 30px;
+    border-radius: 40px;
+    
+}
+
+
+.Alex_Den h3{
+    color: white;
+    text-align: center;
+}
+.Alex_Den img{
+    margin-top: 30px;
+    border-radius: 40px;
+    
+}
+
+
+
+.social_icons :nth-child(1){
+    position: relative;left: 30px;top: -10px;
+}
+.social_icons :nth-child(2){
+    position: relative;left: 40px;top: -10px;
+}
+.social_icons :nth-child(3){
+    position: relative;left: 50px;top: -10px;
+}
+
+/* OUR GYM TRAINERS section finish */
+
+
+/* contact us section starts */
+.CONTACT_US{
+    background-color: rgb(70, 1, 104);
+    height: 795px;
+}
+.CONTACT_US h2{
+    color: white;
+    font-size: 30px;
+    position: absolute;left: 850px;top: 2600px;
+}
+.CONTACT_US h2::after{
+    content: " ";
+    height: 6px;
+    background-color: red;
+    position: absolute;
+    width: 70px;
+    left: 0;
+    bottom: -10px; 
+}
+.CONTACT_US form{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    margin-left: 850px;
+    margin-top: -650px;
+    gap: 20px;
+    
+}
+.CONTACT_US form input{
+    height: 50px;
+    padding-left: 20px;
+}
+.CONTACT_US .send{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    cursor: pointer;
+    margin-left: 1250px;
+    margin-top: 50px;
+}
+.CONTACT_US form :nth-child(4){
+    height: 150px;
+}
+
+/* contact us section finish */
+
+
+
+/* footer section starts */
+footer{
+    height: 200px;
+    background-color: rgb(48, 2, 71);
+}
+footer .contuct_icons{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    align-items: center;
+    position: relative;top: 50px;
+}
+
+
+
+.location h3{
+    color: white;
+    margin-top: 20px;
+}
+.location img{
+    margin-left:20px;
+}
+
+
+.telephone h3{
+    color: white;
+    margin-top: 20px;
+}
+.telephone img{
+    margin-left:40px;
+}
+
+
+
+.email h3{
+    color: white;
+    margin-top: 20px;
+}
+.email img{
+    margin-left:50px;
+}
+
+/* footer section finish */

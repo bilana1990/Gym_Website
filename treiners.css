@@ -1,0 +1,22 @@
+.treiners::before{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+
+.home::before{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}

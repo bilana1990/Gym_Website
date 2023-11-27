@@ -1,0 +1,66 @@
+@media only screen and (max-width: 360px){
+    .OUR_GYM_TRAINERS h2 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 284px;
+    }
+    .our_treners {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        gap: 39px;
+        margin-top: 325px;
+    }
+    .OUR_GYM_TRAINERS {
+        background-image: url(img/trainer-bg.jpg);
+        height: 1956px;
+        background-attachment: fixed;
+    }
+   
+}
+
+
+@media (min-width:360px) and (max-width:480px){
+    .OUR_GYM_TRAINERS h2 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 314px;
+    }
+    .our_treners {
+        margin-top: 360px;
+        flex-direction: column;
+        margin-left: 63px;
+    }
+    .OUR_GYM_TRAINERS {
+        height: 2112px;
+    }
+}
+
+
+
+@media (min-width:480px) and (max-width:768px){
+    .OUR_GYM_TRAINERS h2 {
+        text-align: center;
+        color: white;
+        font-size: 30px;
+        position: relative;
+        top: 330px;
+    }
+    .our_treners {
+        /* flex-wrap: nowrap; */
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin-top: 391px;
+    }
+    .OUR_GYM_TRAINERS {
+        background-image: url(img/trainer-bg.jpg);
+        height: 2112px;
+        background-attachment: fixed;
+    }
+}

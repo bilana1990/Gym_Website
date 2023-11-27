@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Fira Code', monospace;
+    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Playpen Sans', cursive;
+    font-family: 'Young Serif', serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;top: 20px;
+    z-index: 1;
+    background-image: url(img/healthy-bg.jpg);
+    width: 100%;
+    height: 60px;
+    margin-top: -20px;
+    
+}
+.siteheader h1 a{
+    color: white;
+    margin-left: 100px;
+}
+.navmenu{
+    display: flex;
+    gap: 60px;
+    margin-left: 200px;
+}
+
+.navmenu a{
+    position: relative;
+    color: white;
+} 
+.navmenu a::after{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+.navmenu a:hover::after{
+    width: 100%;
+}
+
+
+
+
+
+.why_us::before{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+
+.home::before{
+    content: " ";
+    height: 3px;
+    background-color: red;
+    position: absolute;
+    width: 0%;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+
+
+
+
+
+.WHY_CHOOSE_US{
+    margin-top: 60px;
+}
+.WHY_CHOOSE_US h2 {
+    margin-top: -585px;
+    position: absolute;
+    left: 600px;
+    top: 700px;
+    color: white;
+    font-size: 30px;
+}
+.conteiners{
+    margin-top: -600px;
+}
